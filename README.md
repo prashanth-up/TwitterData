@@ -21,7 +21,6 @@ TASKS:
 - Try different approaches in building the model 
 - Compare the different results 
 - Prepare the visualization for all these models
-- Prepare ppt to show work done
 - Collaborate with Team and discuss approaches
 - Locate entities/evidences to help explain the results.
 
@@ -31,18 +30,25 @@ TODO:
 - [x] Clean the data 
 - [x] Organize the data 
 - [x] Build a bot to keep scraping new tweets 
+- [x] Get the data ready for ML 
+- [x] Train a classifier to separate opinions that either support or are against this decision.
+- [x] Check the necessary parameters required as important factors
+- [x] Run the Model a few times 
+- [x] Optimize it based on the results 
  
 IN-Progress:
-- [ ] Get the data ready for ML 
-- [ ] Build the model 
+- [x] NA
 
 ## FILES
 
 ### Runtime Files
-- scraper.py - The twitter tweet scraper
-- newDataBot.py - The bot that adds new unique tweets onto the existing dataset
+- scraper.py - The twitter tweet scraper (run only for the first time)
+- newDataBot.py - The bot that adds new unique tweets onto the existing dataset (After the first CSV is created)
+- main.py - Takes the data files and stores in custom format for our NLP Model (in /data)
+- train.py (Trains the model)(Uses CUDA GPU, if not available uses default CUDA CPU)
+- Contrastive Learning.ipynb (Runs our trained model over some validation data in `/data`)
+
 
 ### Jupyter Notebooks
 - DataVis Scraped Data.ipynb - Has visual info on the scraped dataset. Just for reference
 - Contrastive Learning.ipynb -  The main file which will hold the classifier.  
-
