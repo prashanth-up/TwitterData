@@ -8,23 +8,6 @@ Your task:
 2.  Train a classifier to separate opinions that either support or are against this decision.
 ## Progress Tracking: 
 TASKS:
-- Get real data from twitter relating to the topic given
-- Build a custom Scraper to scrape twitter
-- Clean the data 
-- Organize the data 
-- Build a bot to keep scraping new tweets 
-- Get the data ready for ML 
-- Train a classifier to separate opinions that either support or are against this decision.
-- Check the necessary parameters required as important factors
-- Run the Model a few times 
-- Optimize it based on the results 
-- Try different approaches in building the model 
-- Compare the different results 
-- Prepare the visualization for all these models
-- Collaborate with Team and discuss approaches
-- Locate entities/evidences to help explain the results.
-
-TODO:
 - [x] Get real data from twitter relating to the topic given
 - [x] Build a custom Scraper to scrape twitter
 - [x] Clean the data 
@@ -35,7 +18,12 @@ TODO:
 - [x] Check the necessary parameters required as important factors
 - [x] Run the Model a few times 
 - [x] Optimize it based on the results 
- 
+- [ ] Try different approaches in building the model 
+- [x] Compare the different results 
+- [ ] Prepare the visualization for all these models
+- [x] Collaborate with Team and discuss approaches
+- [ ] Locate entities/evidences to help explain the results.
+
 IN-Progress:
 - [x] NA
 
