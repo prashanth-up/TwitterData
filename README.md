@@ -48,4 +48,5 @@ IN-Progress:
  - Run `train.py` to train our contrastive learning NLP model.
  - Open `Contrastive Learning.ipynb` to test our model over some validation tweets.
 
-
+### Presentation:
+- [Presentation Link](https://github.com/prashanth-up/TwitterData/blob/master/ContrastiveLearningReport.pptx)
